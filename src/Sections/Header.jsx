@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NetflixLogo from "../assets/images/NetflixLogo.png";
-import searchIcon from "../assets/images/search.png";
+import searchIcon from "../assets/images/Search.png";
 import giftBox from "../assets/images/GiftBox.png";
 import notificationBell from "../assets/images/NotificationBell.png";
 import profile from "../assets/images/Profile.png";
