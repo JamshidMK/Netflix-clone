@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  
+}
+
+.webkit-scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.webkit-scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ffffffff;
+  height: 16px;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #00000000;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  border: 1px solid #00000000;
+}
+
+.text-border{
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
